@@ -1,0 +1,31 @@
+Environment info:
+	IDE: Eclipse Oxyzen
+	compiler version: JavaSE-1.7
+	JUnit plugin: C:\Users\sushil\Downloads\oxy-ee-eclipse\eclipse-jee-oxygen-RC2-win32-x86_64\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar
+    logger: log4j-1.2.15.jar
+          : log4j writes log at C:\\log\\logging.log
+
+Main Application: ReceiptGenerator.java
+JUnit Test class: ReceiptGeneratorTest
+
+ReceiptGenerator will read a file; 
+     file location is provided either from command line
+		e.g. ReceiptGenerator C:\\input.txt
+	 if not provided, it will load default input.txt from the project root
+	
+content of input.txt
+
+Input 1:
+1 book at 12.49
+1 music CD at 14.99
+1 chocolate bar at 0.85
+
+Input 2:
+1 imported box of chocolates at 10.00  
+1 imported bottle of perfume at 47.50
+
+Input 3:
+1 imported bottle of perfume at 27.99
+1 bottle of perfume at 18.99
+1 packet of headache pills at 9.75
+1 box of imported chocolates at 11.25
